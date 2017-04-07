@@ -1,0 +1,30 @@
+{
+  "name": "hotelservice",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "FP_HotelService",
+    "heroku"
+  ],
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.3",
+    "morgan": "~1.8.1",
+    "randomstring": "^1.1.5",
+    "serve-favicon": "~2.4.2"
+  },
+  "author": "ameliat",
+  "license": "MIT",
+  "engines": {
+    "node": "4.4.7"
+  }
+}
